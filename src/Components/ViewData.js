@@ -69,7 +69,7 @@ const ViewData = () => {
                 <div className="qr-code">
                   <QRCodeCanvas
                     // Encodes URL with the userId to navigate to the user details page
-                    value={`https://server-jphi.vercel.app/api/user/${user._id}`} // Use the user._id to link to their details page
+                    value={`https://server-jphi.vercel.app/user/${user._id}`} // Use the user._id to link to their details page
                     size={70}
                   />
                 </div>
