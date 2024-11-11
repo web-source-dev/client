@@ -116,7 +116,7 @@ const QRForm = () => {
             {/* Show the QR code */}
             <QRCodeCanvas
               id="qr-code-canvas"
-              value={`https://server-jphi.vercel.app/user/${userId}`} // The URL with the correct userId
+              value={`https://client-delta-taupe.vercel.app/user/${userId}`} // The URL with the correct userId
               size={300}  // Increase the size (larger value = higher resolution)
               fgColor="#000000" // Optional: set foreground color for better contrast
               bgColor="#ffffff" // Optional: set background color
